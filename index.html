@@ -11,11 +11,53 @@
 <h1> Volunteer Form </h1>
 </header>
 
-<form method = "POST" action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"> 
+<form action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"> method = "POST" </form>
 	<fieldset>
 		<legend> <strong> My Info </strong> </legend>
-<div>
-	<label> First Name: <input type = "text" name = "text_field" placeholder = "first name"
+
+			<div>
+				<label> First Name: <input type = "text" name = "fName_field"> </label>
+			</div>
+
+			<div>
+				<label> Last Name: <input type = "text" name = "lName_field"> </label>
+			</div>
+
+			<div>
+				<label> Phone Number: <input type = "text" name = "phoneNum_field"> </label>
+			</div>
+
+			<div>
+				<label> Email Address: <input type = "email" name = "email_field"> </label>
+			</div>
+	</fieldset>
+
+	<div>
+		<label> Gender: </label>
+		<label> Male <input type = "radio" name = "radio_field"> </label>
+		<label> Female <input type = "radio" name = "radio_field"> </label>
+	</div>
+
+	<div>
+		<label> Age: </label>
+			<select name = "age_field">
+				<option value = "low"> under 18 </option>
+				<option value = ""> 18 - 24 </option>
+				<option value = ""> 25 - 34 </option>
+				<option value = ""> 35 -44 </option>
+				<option value = ""> 45 - 54 </option>
+				<option value = ""> 55- 64 </option>
+				<option value = ""> 65 and over </option>
+
+
+
+
+
+
+
+
+
+	</div>
 
 
 
@@ -49,10 +91,6 @@
 
 
 
-
-
-
-
-
+</form>
 </body>
 </html>
